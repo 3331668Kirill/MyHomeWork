@@ -1,0 +1,39 @@
+.message {
+    border-radius: 10px;
+    position: relative; /* Относительное позиционирование */
+    left: 50px; /* Смещаем слой вправо на ширину левого слоя */
+    width: 150px; /* Ширина слоя */
+    height: 80px;
+    background: black; /* Цвет фона */
+    color: white;
+    padding: 10px; /* Поля вокруг текста */
+}
+
+.div_img{
+    position: absolute; /* Абсолютное позиционирование */
+    width: 50px; /* Ширина слоя  */
+    top: 110px;
+    max-height: 50px;
+
+
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.name{
+    color: blueviolet;
+    margin: 0;
+}
+.name_message{
+    margin: 0;
+}
+.time{
+    width: 150px;
+    text-align: right;
+    color: darkgreen;
+}
