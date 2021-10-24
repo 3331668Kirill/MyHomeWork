@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github.io/MyHomeWork/static/css/main.10c38f76.chunk.css",
-    "main.js": "/github.io/MyHomeWork/static/js/main.0182890a.chunk.js",
-    "main.js.map": "/github.io/MyHomeWork/static/js/main.0182890a.chunk.js.map",
+    "main.css": "/github.io/MyHomeWork/static/css/main.2bfe2e5c.chunk.css",
+    "main.js": "/github.io/MyHomeWork/static/js/main.84890ec9.chunk.js",
+    "main.js.map": "/github.io/MyHomeWork/static/js/main.84890ec9.chunk.js.map",
     "runtime-main.js": "/github.io/MyHomeWork/static/js/runtime-main.4848d849.js",
     "runtime-main.js.map": "/github.io/MyHomeWork/static/js/runtime-main.4848d849.js.map",
     "static/js/2.1f05b0f3.chunk.js": "/github.io/MyHomeWork/static/js/2.1f05b0f3.chunk.js",
     "static/js/2.1f05b0f3.chunk.js.map": "/github.io/MyHomeWork/static/js/2.1f05b0f3.chunk.js.map",
     "index.html": "/github.io/MyHomeWork/index.html",
-    "static/css/main.10c38f76.chunk.css.map": "/github.io/MyHomeWork/static/css/main.10c38f76.chunk.css.map",
+    "static/css/main.2bfe2e5c.chunk.css.map": "/github.io/MyHomeWork/static/css/main.2bfe2e5c.chunk.css.map",
     "static/js/2.1f05b0f3.chunk.js.LICENSE.txt": "/github.io/MyHomeWork/static/js/2.1f05b0f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4848d849.js",
     "static/js/2.1f05b0f3.chunk.js",
-    "static/css/main.10c38f76.chunk.css",
-    "static/js/main.0182890a.chunk.js"
+    "static/css/main.2bfe2e5c.chunk.css",
+    "static/js/main.84890ec9.chunk.js"
   ]
 }
