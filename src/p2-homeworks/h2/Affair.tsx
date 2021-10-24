@@ -4,17 +4,17 @@ import {AffairType} from "./HW2";
 type AffairPropsType = {
     // key не нужно типизировать
     affair: AffairType// need to fix any
-    deleteAffairCallback: (_id:number) => void// need to fix any
+    deleteAffairCallback: (_id: number) => void// need to fix any
 }
 
 function Affair(props: AffairPropsType) {
     const deleteCallback = () => {
-       props.deleteAffairCallback(props.affair._id)
+        props.deleteAffairCallback(props.affair._id)
     }// need to fix
 
     return (
         <div>
-            {props.affair._id}: {props.affair.name}   -   priority: {props.affair.priority}
+            {props.affair._id}: {props.affair.name} - priority: {props.affair.priority}
 
             <button onClick={deleteCallback}>X</button>
         </div>
