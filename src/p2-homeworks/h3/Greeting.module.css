@@ -3,5 +3,19 @@
 }
 
 .error {
-    border: 1px solid red;
+    border: 3px solid red;
+    background-color: yellow;
+}
+
+.messageError{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.messageUsers{
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
 }
