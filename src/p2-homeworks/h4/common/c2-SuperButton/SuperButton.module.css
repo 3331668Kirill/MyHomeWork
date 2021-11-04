@@ -1,7 +1,12 @@
 .default {
-
+    background: yellow;
 }
 
 .red {
     background: red;
+}
+
+.default:disabled {
+    background: white;
+    color: mediumslateblue;
 }
