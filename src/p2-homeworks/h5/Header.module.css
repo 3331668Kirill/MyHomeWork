@@ -1,0 +1,19 @@
+.navbar{
+    position: relative;
+    left: -276px;
+    width: 100px;
+    height: 50px;
+    background: lightskyblue;
+    margin-top: 5px;
+    /*transition: left .2s linear;*/
+}
+
+
+.navbar:hover {
+    left: 10px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
