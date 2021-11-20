@@ -11,3 +11,9 @@
 .error {
     color: red;
 }
+
+.newSpanClassName {
+    color: blueviolet;
+    font-family: "Berlin Sans FB";
+
+    }
