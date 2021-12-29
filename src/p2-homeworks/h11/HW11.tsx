@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
+import s from '././common/c7-SuperRange/SuperRange.module.css'
 
 function HW11() {
     const [value1, setValue1] = useState(0)
@@ -11,20 +12,34 @@ function HW11() {
             <hr/>
             homeworks 11
 
-            {/*should work (должно работать)*/}
+
             <div>
-                <span>{value1}</span>
-                <SuperRange
-                    // сделать так чтоб value1 изменялось
+                <span className={s.range_values}>Value:{value1}</span>
+                <SuperRange onChangeRange={(e) => {
+                    if (value1 < value2) {
+                        setValue1(e)
+                    }
+                }}
+                            value={value1}
+
                 />
             </div>
 
+
             <div>
-                <span>{value1}</span>
-                <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
+                <span className={s.range_values}>Min:{value1}</span>
+                <SuperDoubleRange onChangeRange={([value1, value2]) => {
+                    if (value1 < value2) {
+                        setValue1(value1)
+                        setValue2(value2)
+                    }
+
+                }
+                }
+                                  value={[value1, value2]}
+
                 />
-                <span>{value2}</span>
+                <span className={s.range_values}>Max:{value2}</span>
             </div>
 
             <hr/>
